@@ -8,10 +8,10 @@ jobs:
       # To use this repository's private action,
       # you must check out the repository
       - name: Checkout
-        uses: insproworks/git-action@v3
+        uses: insproworks/spring-action@master
       - name: Hello world action step
         #uses: ./ # Uses an action in the root directory
-        uses: insproworks/git-action@master # Uses an action in the root directory
+        uses: insproworks/spring-action@master # Uses an action in the root directory
         id: hello
         with:
           who-to-greet: 'Mona the Octocat'
